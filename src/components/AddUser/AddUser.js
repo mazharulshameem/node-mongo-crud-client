@@ -34,7 +34,7 @@ const AddUser = () => {
       <h1>Please Add a New User</h1>
       <form onSubmit={handleAddUser}>
         <input
-          onBlur={handleBlur}
+          onChange={handleBlur}
           type="text"
           name="name"
           placeholder="Name"
@@ -42,7 +42,7 @@ const AddUser = () => {
         />
         <br />
         <input
-          onBlur={handleBlur}
+          onChange={handleBlur}
           type="text"
           name="address"
           placeholder="Address"
@@ -50,7 +50,7 @@ const AddUser = () => {
         />
         <br />
         <input
-          onBlur={handleBlur}
+          onChange={handleBlur}
           type="email"
           name="email"
           placeholder="Email"
